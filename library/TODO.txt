@@ -1,0 +1,8 @@
+TODO.txt
+
+(C) 2010 by Damir Ćavar and The Schemers in Zadar
+
+
+dcavar:
+A lot...
+

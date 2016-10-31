@@ -1,0 +1,17 @@
+digraph G {
+	house -> of ;
+	new -> house ;
+	new -> landlords ;
+	in -> the ;
+	saw -> the ;
+	the -> city ;
+	landlords -> who ;
+	John -> saw ;
+	new -> part ;
+	live -> in ;
+	who -> live ;
+	of -> the ;
+	part -> of ;
+	the -> new ;
+}
+

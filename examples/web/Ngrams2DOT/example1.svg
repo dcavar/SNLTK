@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="282pt"
+   height="548pt"
+   viewBox="0.00 0.00 282.00 548.00"
+   id="svg3073"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="example1.svg">
+  <title
+     id="title3272">Token network example from n-grams as a directed graph</title>
+  <metadata
+     id="metadata3266">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Token network example from n-grams as a directed graph</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Damir Ćavar</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>1.3.2010</dc:date>
+        <dc:language>English</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>DOT</rdf:li>
+            <rdf:li>Scheme</rdf:li>
+            <rdf:li>token network</rdf:li>
+            <rdf:li>directed graph</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>(C) 2010 by Damir Ćavar</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Damir Ćavar</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-nd/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3264">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 342.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="352.5 : 342.5 : 1"
+       inkscape:persp3d-origin="176.25 : 228.33333 : 1"
+       id="perspective3268" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1031"
+     inkscape:window-height="807"
+     id="namedview3262"
+     showgrid="false"
+     showborder="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.9744654"
+     inkscape:cx="-51.054119"
+     inkscape:cy="301.45185"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3073" />
+  <g
+     id="graph1"
+     class="graph"
+     transform="scale(1 1) rotate(0) translate(4 544)">
+    <title
+       id="title3076">G</title>
+    <polygon
+       fill="white"
+       stroke="white"
+       points="-4,5 -4,-544 279,-544 279,5 -4,5"
+       id="polygon3078" />
+    <!-- house -->
+    <g
+       id="node1"
+       class="node">
+      <title
+         id="title3081">house</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="79"
+         cy="-522"
+         rx="31.9972"
+         ry="18"
+         id="ellipse3083"
+         d="m 110.9972,-522 c 0,9.94113 -14.325634,18 -31.9972,18 -17.671566,0 -31.9972,-8.05887 -31.9972,-18 0,-9.94113 14.325634,-18 31.9972,-18 17.671566,0 31.9972,8.05887 31.9972,18 z" />
+      <text
+         text-anchor="middle"
+         x="79"
+         y="-516.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3085">house</text>
+    </g>
+    <!-- of -->
+    <g
+       id="node3"
+       class="node">
+      <title
+         id="title3088">of</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="63"
+         cy="-450"
+         rx="27"
+         ry="18"
+         id="ellipse3090"
+         d="m 90,-450 c 0,9.94113 -12.088312,18 -27,18 -14.911688,0 -27,-8.05887 -27,-18 0,-9.94113 12.088312,-18 27,-18 14.911688,0 27,8.05887 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="63"
+         y="-444.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3092">of</text>
+    </g>
+    <!-- house&#45;&gt;of -->
+    <g
+       id="edge2"
+       class="edge">
+      <title
+         id="title3095">house-&gt;of</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M74.9625,-503.831C73.2059,-495.927 71.1083,-486.487 69.1637,-477.737"
+         id="path3097" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="72.5668,-476.916 66.9808,-467.913 65.7335,-478.435 72.5668,-476.916"
+         id="polygon3099" />
+    </g>
+    <!-- the -->
+    <g
+       id="node10"
+       class="node">
+      <title
+         id="title3102">the</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="182"
+         cy="-378"
+         rx="27"
+         ry="18"
+         id="ellipse3104"
+         d="m 209,-378 c 0,9.94113 -12.08831,18 -27,18 -14.91169,0 -27,-8.05887 -27,-18 0,-9.94113 12.08831,-18 27,-18 14.91169,0 27,8.05887 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="182"
+         y="-372.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3106">the</text>
+    </g>
+    <!-- of&#45;&gt;the -->
+    <g
+       id="edge24"
+       class="edge">
+      <title
+         id="title3109">of-&gt;the</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M83.1867,-437.786C102.334,-426.201 131.313,-408.668 152.944,-395.58"
+         id="path3111" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="154.97,-398.445 161.714,-390.274 151.347,-392.456 154.97,-398.445"
+         id="polygon3113" />
+    </g>
+    <!-- new -->
+    <g
+       id="node4"
+       class="node">
+      <title
+         id="title3116">new</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="118"
+         cy="-306"
+         rx="27"
+         ry="18"
+         id="ellipse3118"
+         d="m 145,-306 c 0,9.94113 -12.08831,18 -27,18 -14.91169,0 -27,-8.05887 -27,-18 0,-9.94113 12.08831,-18 27,-18 14.91169,0 27,8.05887 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="118"
+         y="-300.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3120">new</text>
+    </g>
+    <!-- new&#45;&gt;house -->
+    <g
+       id="edge4"
+       class="edge">
+      <title
+         id="title3123">new-&gt;house</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M117.274,-324.226C115.757,-354.473 111.301,-416.786 99,-468 96.8519,-476.943 93.6647,-486.433 90.4628,-494.921"
+         id="path3125" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="87.1642,-493.745 86.7585,-504.332 93.6778,-496.309 87.1642,-493.745"
+         id="polygon3127" />
+    </g>
+    <!-- landlords -->
+    <g
+       id="node7"
+       class="node">
+      <title
+         id="title3130">landlords</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="118"
+         cy="-234"
+         rx="46.1459"
+         ry="18"
+         id="ellipse3132"
+         d="m 164.1459,-234 c 0,9.94113 -20.66022,18 -46.1459,18 -25.485677,0 -46.145901,-8.05887 -46.145901,-18 0,-9.94113 20.660224,-18 46.145901,-18 25.48568,0 46.1459,8.05887 46.1459,18 z" />
+      <text
+         text-anchor="middle"
+         x="118"
+         y="-228.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3134">landlords</text>
+    </g>
+    <!-- new&#45;&gt;landlords -->
+    <g
+       id="edge6"
+       class="edge">
+      <title
+         id="title3137">new-&gt;landlords</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M118,-287.831C118,-280.131 118,-270.974 118,-262.417"
+         id="path3139" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="121.5,-262.413 118,-252.413 114.5,-262.413 121.5,-262.413"
+         id="polygon3141" />
+    </g>
+    <!-- part -->
+    <g
+       id="node20"
+       class="node">
+      <title
+         id="title3144">part</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="27"
+         cy="-234"
+         rx="27"
+         ry="18"
+         id="ellipse3146"
+         d="m 54,-234 c 0,9.94113 -12.088312,18 -27,18 -14.911688,0 -27,-8.05887 -27,-18 0,-9.94113 12.088312,-18 27,-18 14.911688,0 27,8.05887 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="27"
+         y="-228.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3148">part</text>
+    </g>
+    <!-- new&#45;&gt;part -->
+    <g
+       id="edge18"
+       class="edge">
+      <title
+         id="title3151">new-&gt;part</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M100.454,-292.118C86.8581,-281.36 67.8247,-266.301 52.5396,-254.207"
+         id="path3153" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="54.5058,-251.3 44.4919,-247.84 50.1624,-256.789 54.5058,-251.3"
+         id="polygon3155" />
+    </g>
+    <!-- who -->
+    <g
+       id="node16"
+       class="node">
+      <title
+         id="title3158">who</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="123"
+         cy="-162"
+         rx="27"
+         ry="18"
+         id="ellipse3160"
+         d="m 150,-162 c 0,9.94113 -12.08831,18 -27,18 -14.91169,0 -27,-8.05887 -27,-18 0,-9.94113 12.08831,-18 27,-18 14.91169,0 27,8.05887 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="123"
+         y="-156.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3162">who</text>
+    </g>
+    <!-- landlords&#45;&gt;who -->
+    <g
+       id="edge14"
+       class="edge">
+      <title
+         id="title3165">landlords-&gt;who</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M119.262,-215.831C119.796,-208.131 120.432,-198.974 121.027,-190.417"
+         id="path3167" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="124.52,-190.632 121.721,-180.413 117.537,-190.147 124.52,-190.632"
+         id="polygon3169" />
+    </g>
+    <!-- in -->
+    <g
+       id="node8"
+       class="node">
+      <title
+         id="title3172">in</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="160"
+         cy="-18"
+         rx="27"
+         ry="18"
+         id="ellipse3174"
+         d="m 187,-18 c 0,9.9411255 -12.08831,18 -27,18 -14.91169,0 -27,-8.0588745 -27,-18 0,-9.941125 12.08831,-18 27,-18 14.91169,0 27,8.058875 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="160"
+         y="-12.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3176">in</text>
+    </g>
+    <!-- in&#45;&gt;the -->
+    <g
+       id="edge8"
+       class="edge">
+      <title
+         id="title3179">in-&gt;the</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M166.63,-35.9012C176.003,-62.8549 192,-115.646 192,-162 192,-234 192,-234 192,-234 192,-274.221 188.069,-320.609 185.137,-349.623"
+         id="path3181" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="181.627,-349.534 184.072,-359.843 188.59,-350.259 181.627,-349.534"
+         id="polygon3183" />
+    </g>
+    <!-- the&#45;&gt;new -->
+    <g
+       id="edge28"
+       class="edge">
+      <title
+         id="title3186">the-&gt;new</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M168.113,-362.377C159.475,-352.659 148.211,-339.987 138.55,-329.119"
+         id="path3188" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="141.12,-326.741 131.86,-321.592 135.888,-331.392 141.12,-326.741"
+         id="polygon3190" />
+    </g>
+    <!-- city -->
+    <g
+       id="node14"
+       class="node">
+      <title
+         id="title3193">city</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="247"
+         cy="-306"
+         rx="27"
+         ry="18"
+         id="ellipse3195"
+         d="m 274,-306 c 0,9.94113 -12.08831,18 -27,18 -14.91169,0 -27,-8.05887 -27,-18 0,-9.94113 12.08831,-18 27,-18 14.91169,0 27,8.05887 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="247"
+         y="-300.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3197">city</text>
+    </g>
+    <!-- the&#45;&gt;city -->
+    <g
+       id="edge12"
+       class="edge">
+      <title
+         id="title3200">the-&gt;city</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M196.104,-362.377C204.877,-352.659 216.317,-339.987 226.129,-329.119"
+         id="path3202" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="228.82,-331.361 232.923,-321.592 223.624,-326.67 228.82,-331.361"
+         id="polygon3204" />
+    </g>
+    <!-- saw -->
+    <g
+       id="node11"
+       class="node">
+      <title
+         id="title3207">saw</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="182"
+         cy="-450"
+         rx="27"
+         ry="18"
+         id="ellipse3209"
+         d="m 209,-450 c 0,9.94113 -12.08831,18 -27,18 -14.91169,0 -27,-8.05887 -27,-18 0,-9.94113 12.08831,-18 27,-18 14.91169,0 27,8.05887 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="182"
+         y="-444.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3211">saw</text>
+    </g>
+    <!-- saw&#45;&gt;the -->
+    <g
+       id="edge10"
+       class="edge">
+      <title
+         id="title3214">saw-&gt;the</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M182,-431.831C182,-424.131 182,-414.974 182,-406.417"
+         id="path3216" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="185.5,-406.413 182,-396.413 178.5,-406.413 185.5,-406.413"
+         id="polygon3218" />
+    </g>
+    <!-- live -->
+    <g
+       id="node21"
+       class="node">
+      <title
+         id="title3221">live</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="128"
+         cy="-90"
+         rx="27"
+         ry="18"
+         id="ellipse3223"
+         d="m 155,-90 c 0,9.941125 -12.08831,18 -27,18 -14.91169,0 -27,-8.058875 -27,-18 0,-9.941125 12.08831,-18 27,-18 14.91169,0 27,8.058875 27,18 z" />
+      <text
+         text-anchor="middle"
+         x="128"
+         y="-84.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3225">live</text>
+    </g>
+    <!-- who&#45;&gt;live -->
+    <g
+       id="edge22"
+       class="edge">
+      <title
+         id="title3228">who-&gt;live</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M124.262,-143.831C124.796,-136.131 125.432,-126.974 126.027,-118.417"
+         id="path3230" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="129.52,-118.632 126.721,-108.413 122.537,-118.147 129.52,-118.632"
+         id="polygon3232" />
+    </g>
+    <!-- John -->
+    <g
+       id="node17"
+       class="node">
+      <title
+         id="title3235">John</title>
+      <ellipse
+         fill="none"
+         stroke="black"
+         cx="182"
+         cy="-522"
+         rx="28.0958"
+         ry="18"
+         id="ellipse3237"
+         d="m 210.0958,-522 c 0,9.94113 -12.57892,18 -28.0958,18 -15.51688,0 -28.0958,-8.05887 -28.0958,-18 0,-9.94113 12.57892,-18 28.0958,-18 15.51688,0 28.0958,8.05887 28.0958,18 z" />
+      <text
+         text-anchor="middle"
+         x="182"
+         y="-516.9"
+         font-family="Times,serif"
+         font-size="14.00"
+         id="text3239">John</text>
+    </g>
+    <!-- John&#45;&gt;saw -->
+    <g
+       id="edge16"
+       class="edge">
+      <title
+         id="title3242">John-&gt;saw</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M182,-503.831C182,-496.131 182,-486.974 182,-478.417"
+         id="path3244" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="185.5,-478.413 182,-468.413 178.5,-478.413 185.5,-478.413"
+         id="polygon3246" />
+    </g>
+    <!-- part&#45;&gt;of -->
+    <g
+       id="edge26"
+       class="edge">
+      <title
+         id="title3249">part-&gt;of</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M30.0242,-252.145C36.3124,-289.874 50.8347,-377.008 58.3326,-421.996"
+         id="path3251" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="54.8961,-422.667 59.9926,-431.955 61.8009,-421.516 54.8961,-422.667"
+         id="polygon3253" />
+    </g>
+    <!-- live&#45;&gt;in -->
+    <g
+       id="edge20"
+       class="edge">
+      <title
+         id="title3256">live-&gt;in</title>
+      <path
+         fill="none"
+         stroke="black"
+         d="M135.746,-72.5708C139.48,-64.1691 144.04,-53.9091 148.195,-44.5623"
+         id="path3258" />
+      <polygon
+         fill="black"
+         stroke="black"
+         points="151.462,-45.8283 152.325,-35.2687 145.065,-42.9853 151.462,-45.8283"
+         id="polygon3260" />
+    </g>
+  </g>
+</svg>
